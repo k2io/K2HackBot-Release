@@ -31,7 +31,7 @@ Untar downloaded K2HackBot Bundle.
 
 One of the suggested way is :
 ```shell
-> tar -xf ${PATH_TO_K2HACKBOT_BUNDLE}
+> > tar --no-same-owner -xf ${PATH_TO_K2HACKBOT_BUNDLE}
 ```
 
 K2hackbot is shipped with all essential tools preinstalled .\
@@ -39,7 +39,7 @@ Use following command for setup
 
 ```shell
 > cd ${PATH_TO_UNTAR_K2HACKBOT_DIRECTORY};
-> ./setup.sh or bash setup.sh;
+> ./install.sh or bash install.sh;
 ```
 
 script will provide an export command. Use the export command to set path for k2hackbot for the user 
