@@ -16,7 +16,7 @@ In case of Root user Setup Script will try to install FireFox By itself
 
 ```shell
 cd ${path_to_bundle};
-./setup.sh or bash setup.sh;
+./install.sh or bash install.sh;
 ```
 ** In case Firefox is not installed with provided steps then please make necessary changes and install Firefox
 
@@ -31,7 +31,7 @@ Untar downloaded K2HackBot Bundle.
 
 One of the suggested way is :
 ```shell
-> > tar --no-same-owner -xf ${PATH_TO_K2HACKBOT_BUNDLE}
+> tar --no-same-owner -xf ${PATH_TO_K2HACKBOT_BUNDLE}
 ```
 
 K2hackbot is shipped with all essential tools preinstalled .\
@@ -71,6 +71,43 @@ e.g.
 ```sh
 k2hackbot scan-web-application --help
 ```
+
+# Supported Modes
+
+----
+
+K2HackBot operates in following Modes:
+- probe-api
+- crawl-web-application
+- scan-web-application
+- deploy-k2components
+
+
+# Probe Api
+
+---
+Probe Api offers a convenient way to Scan  web-application with the help of api 
+documentation\
+Probe api  support  following api documentation
+- Swagger Api (2.0)
+- OpenAPI (3.0)
+
+**Api with Input Example result in better result** 
+
+
+
+**K2HackBot Command**
+
+```shell
+> k2hackbot probe-api --help
+
+  -url, --jsonUrl TEXT            URL of the Swagger JSON
+  -filepath, --jsonFilePath TEXT  File path of the Swagger JSON
+  -baseurl, --baseUrl TEXT        Base URL of the application.
+  --config FILE                   Read configuration from FILE.
+  --help                          Show this message and exit.
+```
+User can provide json to hackbot using **-url** or **-filepath**
 
 K2HackBot operates in following steps:
 
