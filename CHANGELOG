@@ -4,4 +4,4 @@ ChangeLog
 
 TimeStamp based logging
 Single Hackbot process validation 
-
+Added config logs directory path and config parameters to CLI console
