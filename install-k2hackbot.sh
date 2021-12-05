@@ -59,7 +59,7 @@ if [ ! -d "${k2hackbot_root_dir}/K2HackBot" ]; then
 
 else
 	
-	k2hackbot --version > /dev/null 2>&1
+	/tmp/K2HackBot/bin/k2hackbot --version > /dev/null 2>&1
 	if [[ $? -ne 0 ]]; then
 		echo ""
 		echo "k2hackbot command not found. Remove the existing K2HackBot from $k2hackbot_root_dir directory and rerun the script."
