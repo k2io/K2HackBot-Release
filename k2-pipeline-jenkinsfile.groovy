@@ -8,7 +8,7 @@ Refer this to get all versions of K2HackBot: https://github.com/k2io/K2HackBot-R
 
 Keep this field as empty to download the latest K2HackBot bundle''', name: 'K2HACKBOT_BUNDLE_URL', trim: false),
 
-  string(defaultValue: '192.168.5.247', description: '''The directory path present inside the remote machine where you wish to download all the K2 collectors.
+  string(defaultValue: '/opt/k2-ic', description: '''The directory path present inside the remote machine where you wish to download all the K2 collectors.
 
 By default, this is set to /opt/k2-ic''', name: 'K2_COLLECTORS_PATH', trim: false),
 
