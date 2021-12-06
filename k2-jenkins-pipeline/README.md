@@ -9,7 +9,7 @@ Steps to import K2-Pipeline-Script
 
 ### Add the K2 Jenkins Pipeline script in the newly created Pipeline Job.
 	
-- Download the pipeline script from here: https://raw.githubusercontent.com/k2io/K2HackBot-Release/k2hackbot-automation-demo/k2-pipeline-jenkinsfile.groovy
+- Download the pipeline script from here: https://raw.githubusercontent.com/k2io/K2HackBot-Release/k2hackbot-automation-demo/k2-jenkins-pipeline/k2-pipeline-jenkinsfile.groovy
 - Pasted this script in the "Pipeline" scetion of your newly created pipeline job.
 - Save the changes
 
