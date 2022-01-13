@@ -1,7 +1,1 @@
-RC2 for K2HackBot v1.0.0
-ChangeLog
-=========
 
-TimeStamp based logging
-Single Hackbot process validation 
-Added config logs directory path and config parameters to CLI console
