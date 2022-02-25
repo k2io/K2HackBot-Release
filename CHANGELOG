@@ -1,3 +1,1 @@
-Skipping URL Webpage parsing if already done
-Fixes for k2hac-48
-Handled exceptions during crawling
+Resolved Config issue
