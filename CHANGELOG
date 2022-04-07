@@ -1,5 +1,2 @@
-Fixed Permissions issue
-Added cookie privacy popup handling
-Added fixes for downloads during crawling
-Fix for k2hac-69
-Fix for invalid XPATP exception
+Fixes for restrictive environment
+Fix for incorrect result during result extraction
