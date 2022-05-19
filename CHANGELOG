@@ -1,2 +1,5 @@
-Fixes for restrictive environment
-Fix for incorrect result during result extraction
+- Fixes for restrictive environment
+- Fix for incorrect results during result extraction
+- Fixes for Firefox crash due to PDF URLs
+- Improvement in installer URL
+- Fix for k2hac-74
