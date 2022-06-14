@@ -1,7 +1,3 @@
-- Fixes for restrictive environment
-- Fix for incorrect result during result extraction
-- Fixes for Firefox crash for PDF Urls
-- Improvement for installer URL and directory
-- Fix for k2hac-74
-- Improved validations on config parameters
-- Terminate k2hackbot on receiving SIGINT
+- Improvement in XPath expression for HREFs
+- Launch New Session on Firefox crash
+- Updated path for Geckodriver to Bundle directory
