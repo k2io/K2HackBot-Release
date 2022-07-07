@@ -1,1 +1,9 @@
-- test build
+- Support for 1.x and 2.x Agent
+- fixes for incorrect k2root directory path
+- Support for API Accessor based authentication for Cloud
+- Updated to update DS status as inactive after 6 minutes of DS inactivity and IC HC is only 60 sec older
+- Support for JHackBot
+- Updated extract-results mode to extract-result and deploy-k2-components to deploy-iast-component
+- Improvements in logging
+- Fix for logfile truncate on starting crawling on scan-web-application mode
+- Improvements for input question strings
