@@ -7,3 +7,6 @@
 - Improvements in logging
 - Fix for logfile truncate on starting crawling on scan-web-application mode
 - Improvements for input question strings
+- Updated Geckodriver log level to TRACE
+- Added timeout for firefox instantiation
+- Added logging for fetching environment details
